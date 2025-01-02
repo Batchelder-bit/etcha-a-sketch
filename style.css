@@ -1,0 +1,13 @@
+body {
+    display: flex;
+}
+
+.container {
+    margin: 0;
+    display: flex;
+}
+
+.grid {
+    box-sizing: border-box;
+
+}
