@@ -7,7 +7,6 @@ function createGrid (amountPerSide) {
     for (let i = 0; i < amountPerSide * amountPerSide; i++) {
             console.log(gridCounter);
             let newBox = document.createElement('div');
-            newBox.textContent = '.';
             newBox.classList.add('grid');
             container.appendChild(newBox);
             gridCounter++
