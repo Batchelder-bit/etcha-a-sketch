@@ -2,9 +2,9 @@ console.log('I am working');
 
 const container = document.querySelector('.container');
 
-function createGrid (gridAmount) {
+function createGrid (amountPerSide) {
     let gridCounter = 0;
-    for (let i = 0; i < gridAmount * gridAmount; i++) {
+    for (let i = 0; i < amountPerSide * amountPerSide; i++) {
             console.log(gridCounter);
             let newBox = document.createElement('div');
             newBox.textContent = '.';
