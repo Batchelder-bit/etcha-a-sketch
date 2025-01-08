@@ -24,4 +24,4 @@ function createGrid (amountPerSide) {
     }
 }
 
-document.addEventListener('DOMContentLoaded', () => createGrid(16));
+document.addEventListener('DOMContentLoaded', () => createGrid(24));
