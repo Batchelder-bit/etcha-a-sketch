@@ -14,7 +14,7 @@ function createGrid (amountPerSide) {
                 let endingDiv = document.createElement('div');
                 endingDiv.classList.add('endingDiv');
                 container.appendChild(endingDiv);
-                console.log(i);
+                console.log(cubeCounter);
             } else {
                 let newBox = document.createElement('div');
                 newBox.classList.add('grid');
@@ -24,4 +24,4 @@ function createGrid (amountPerSide) {
     }
 }
 
-document.addEventListener('DOMContentLoaded', () => createGrid(24));
+document.addEventListener('DOMContentLoaded', () => createGrid(40));
